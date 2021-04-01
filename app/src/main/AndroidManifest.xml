@@ -9,7 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EmployDaily">
-        <activity android:name=".views.RegistrationPage"></activity>
+        <activity android:name=".views.RegistrationPage"/>
         <activity android:name=".views.LoginScreen" />
         <activity android:name=".views.SplashActivity" />
         <activity android:name=".views.Dashboard">

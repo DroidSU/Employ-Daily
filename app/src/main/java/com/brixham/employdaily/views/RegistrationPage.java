@@ -1,6 +1,7 @@
 package com.brixham.employdaily.views;
 
 import androidx.appcompat.app.AppCompatActivity;
+import com.brixham.employdaily.R;
 
 import android.os.Bundle;
 
