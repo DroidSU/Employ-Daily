@@ -42,7 +42,7 @@
             android:layout_height="50dp"
             android:layout_gravity="center"
             android:gravity="center"
-            android:drawableLeft="@drawable/email_img"
+            android:drawableLeft="@drawable/ic_email"
             android:hint="Enter Email"/>
 
 
@@ -65,7 +65,7 @@
             android:layout_height="50dp"
             android:layout_gravity="center"
             android:gravity="center"
-            android:drawableLeft="@drawable/email_img"
+            android:drawableLeft="@drawable/ic_smartphone"
             android:hint="Mobile No"/>
 
 
@@ -89,7 +89,7 @@
             android:layout_gravity="center"
             android:gravity="center"
             android:inputType="textPassword"
-            android:drawableLeft="@drawable/password"
+            android:drawableLeft="@drawable/ic_password"
             android:hint="Enter Password"/>
 
 
