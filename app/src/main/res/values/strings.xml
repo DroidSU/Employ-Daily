@@ -1,3 +1,11 @@
 <resources>
     <string name="app_name">Employ Daily</string>
+    <string name="bid_bottom_menu">bid_bottom_menu</string>
+    <string name="make_a_bid">Make a bid</string>
+    <string name="my_jobs">My Jobs</string>
+    <string name="message">Message</string>
+    <string name="more">More</string>
+    <string name="find_jobs">Find Jobs</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
