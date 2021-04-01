@@ -7,11 +7,13 @@
     </data>
 
     <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbaar"
         android:layout_width="match_parent"
         android:layout_height="60dp"
         android:paddingTop="10dp"
         android:paddingBottom="10dp"
-        android:background="#061E64">
+        android:background="#061E64"
+        tools:ignore="InvalidId">
 
         <RelativeLayout
             android:layout_width="wrap_content"

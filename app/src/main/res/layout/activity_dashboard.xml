@@ -10,21 +10,17 @@
             android:id="@+id/dashboard_layout_toolbaar"
             layout="@layout/layout_toolbar" />
 
-        <androidx.core.widget.NestedScrollView
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:layout_above="@id/dashboard_content_main"
-            android:layout_below="@id/dashboard_layout_toolbaar">
 
             <FrameLayout
                 android:id="@+id/dashBoard_frameLayout"
+                android:layout_below="@id/dashboard_layout_toolbaar"
                 android:layout_width="match_parent"
                 android:layout_height="wrap_content"
                 android:scrollbars="vertical">
 
                 <!--                <include layout="@layout/fragment_home" />-->
             </FrameLayout>
-        </androidx.core.widget.NestedScrollView>
+
 
         <include
             android:id="@+id/dashboard_content_main"
