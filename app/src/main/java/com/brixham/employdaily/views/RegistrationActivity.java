@@ -12,7 +12,7 @@ import android.widget.Spinner;
 
 import com.brixham.employdaily.R;
 
-public class RegistrationPage extends AppCompatActivity {
+public class RegistrationActivity extends AppCompatActivity {
 
     private Spinner spinner;
     private Adapter adapter;
@@ -22,7 +22,7 @@ public class RegistrationPage extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_registration_page);
         spinner = findViewById(R.id.registerGender_spinner);
-        ArrayAdapter<String> adapter = new ArrayAdapter<>(RegistrationPage.this, android.R.layout.simple_spinner_dropdown_item, items);
+        ArrayAdapter adapter = new ArrayAdapter<>(RegistrationActivity.this, android.R.layout.simple_spinner_dropdown_item, items);
         spinner.setAdapter(adapter);
 
     }

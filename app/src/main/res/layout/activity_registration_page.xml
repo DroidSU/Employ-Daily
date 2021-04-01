@@ -3,11 +3,6 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools">
 
-    <data>
-
-
-    </data>
-
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
@@ -41,34 +36,62 @@
 
                 </LinearLayout>
 
-                <com.google.android.material.textfield.TextInputLayout
+                <LinearLayout
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-                    android:layout_marginStart="25dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginEnd="25dp"
-                    android:elevation="10dp"
-                    android:hint="FullName"
-                    app:boxBackgroundMode="outline"
-                    app:boxCollapsedPaddingTop="5dp"
-                    app:boxCornerRadiusBottomEnd="10dp"
-                    app:boxCornerRadiusBottomStart="10dp"
-                    app:boxCornerRadiusTopEnd="10dp"
-                    app:boxCornerRadiusTopStart="10dp"
-                    app:expandedHintEnabled="true"
-                    app:hintTextColor="@color/black"
-                    app:startIconDrawable="@drawable/ic_fullname">
+                    android:orientation="horizontal"
+                    android:layout_marginStart="10dp"
+                    android:layout_marginEnd="10dp"
+                    android:layout_marginTop="20dp">
 
-                    <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/textInputRegisterFullName"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:drawableStart="@drawable/ic_fullname"
-                        android:drawableLeft="@drawable/ic_fullname"
-                        android:drawablePadding="20dp"
-                        android:ellipsize="end"
-                        android:inputType="textEmailAddress"></com.google.android.material.textfield.TextInputEditText>
-                </com.google.android.material.textfield.TextInputLayout>
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:elevation="10dp"
+                        android:hint="User name"
+                        app:boxBackgroundMode="outline"
+                        app:boxCornerRadiusBottomEnd="10dp"
+                        app:boxCornerRadiusBottomStart="10dp"
+                        app:boxCornerRadiusTopEnd="10dp"
+                        app:boxCornerRadiusTopStart="10dp"
+                        app:expandedHintEnabled="true"
+                        app:hintTextColor="@color/black"
+                        app:startIconDrawable="@drawable/ic_fullname"
+                        android:layout_weight="1.5">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/textInputRegisterFullName"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:ellipsize="end"
+                            android:inputType="textPersonName" />
+                    </com.google.android.material.textfield.TextInputLayout>
+
+                    <com.google.android.material.textfield.TextInputLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:elevation="10dp"
+                        android:hint="Mobile number"
+                        android:layout_marginStart="10dp"
+                        app:boxBackgroundMode="outline"
+                        app:boxCornerRadiusBottomEnd="10dp"
+                        app:boxCornerRadiusBottomStart="10dp"
+                        app:boxCornerRadiusTopEnd="10dp"
+                        app:boxCornerRadiusTopStart="10dp"
+                        app:expandedHintEnabled="true"
+                        app:hintTextColor="@color/black"
+                        app:startIconDrawable="@drawable/ic_smartphone"
+                        android:layout_weight="1"
+                        android:layout_marginLeft="10dp">
+
+                        <com.google.android.material.textfield.TextInputEditText
+                            android:id="@+id/textInputRegisterMobile"
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:ellipsize="end"
+                            android:inputType="phone" />
+                    </com.google.android.material.textfield.TextInputLayout>
+                </LinearLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
@@ -96,37 +119,9 @@
                         android:drawableLeft="@drawable/ic_email"
                         android:drawablePadding="20dp"
                         android:ellipsize="end"
-                        android:inputType="textEmailAddress"></com.google.android.material.textfield.TextInputEditText>
+                        android:inputType="textEmailAddress" />
                 </com.google.android.material.textfield.TextInputLayout>
 
-                <com.google.android.material.textfield.TextInputLayout
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_marginStart="25dp"
-                    android:layout_marginTop="20dp"
-                    android:layout_marginEnd="25dp"
-                    android:elevation="10dp"
-                    android:hint="Mobile Number"
-                    app:boxBackgroundMode="outline"
-                    app:boxCollapsedPaddingTop="5dp"
-                    app:boxCornerRadiusBottomEnd="10dp"
-                    app:boxCornerRadiusBottomStart="10dp"
-                    app:boxCornerRadiusTopEnd="10dp"
-                    app:boxCornerRadiusTopStart="10dp"
-                    app:expandedHintEnabled="true"
-                    app:hintTextColor="@color/black"
-                    app:startIconDrawable="@drawable/ic_smartphone">
-
-                    <com.google.android.material.textfield.TextInputEditText
-                        android:id="@+id/textInputRegisterMobile"
-                        android:layout_width="match_parent"
-                        android:layout_height="match_parent"
-                        android:drawableStart="@drawable/ic_smartphone"
-                        android:drawableLeft="@drawable/ic_smartphone"
-                        android:drawablePadding="20dp"
-                        android:ellipsize="end"
-                        android:inputType="phone"></com.google.android.material.textfield.TextInputEditText>
-                </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
                     android:layout_width="match_parent"
@@ -155,7 +150,7 @@
                         android:drawableLeft="@drawable/ic_password"
                         android:drawablePadding="20dp"
                         android:ellipsize="end"
-                        android:inputType="textPassword"></com.google.android.material.textfield.TextInputEditText>
+                        android:inputType="textPassword" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -184,7 +179,7 @@
                         android:drawableLeft="@drawable/ic_birthday"
                         android:drawablePadding="20dp"
                         android:ellipsize="end"
-                        android:inputType="phone"></com.google.android.material.textfield.TextInputEditText>
+                        android:inputType="phone" />
                 </com.google.android.material.textfield.TextInputLayout>
 
                 <com.google.android.material.textfield.TextInputLayout
@@ -253,16 +248,16 @@
                     </LinearLayout>
 
                 <LinearLayout
-                    android:layout_width="250dp"
+                    android:layout_width="200dp"
                     android:layout_height="50dp"
                     android:layout_marginLeft="25dp"
                     android:layout_marginTop="20dp"
                     android:orientation="horizontal"
-
                     android:background="@drawable/corner_black_button"
                     app:backgroundTint="@null" >
+
                 <TextView
-                    android:layout_width="180dp"
+                    android:layout_width="150dp"
                     android:layout_height="match_parent"
                     android:drawableLeft="@drawable/attach"
                     android:paddingLeft="10dp"
@@ -270,12 +265,12 @@
                     android:textSize="15sp"
                     android:layout_gravity="center"
                     android:gravity="center"
-                    android:background="@drawable/corner_white_botton"/>
+                    android:background="@drawable/corner_white_botton"
+                    android:paddingStart="10dp" />
+
                 <ImageView
                     android:layout_width="22dp"
                     android:layout_height="22dp"
-                    android:layout_marginLeft="30dp"
-                    android:layout_marginTop="10dp"
                     android:src="@drawable/upload_icon"/>
 
 
