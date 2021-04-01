@@ -6,23 +6,23 @@
         android:id="@+id/buttonbid"
 
         android:enabled="true"
-        android:icon="@drawable/bid_img" />
+        android:icon="@drawable/ic_bid" />
 
     <item android:id="@+id/button_myjob"
         android:enabled="true"
 
         android:title="@string/my_jobs"
-        android:icon="@drawable/my_job_img"/>
+        android:icon="@drawable/ic_my_job"/>
     <item android:id="@+id/button_message"
         android:title="@string/message"
         android:enabled="true"
         app:showAsAction="ifRoom"
-        android:icon="@drawable/my_job_img"/>
+        android:icon="@drawable/ic_message"/>
     <item android:id="@+id/buttonFindJon"
         android:title="@string/find_jobs"
         android:enabled="true"
 
-        android:icon="@drawable/my_job_img"/>
+        android:icon="@drawable/ic_find_job"/>
     <item android:id="@+id/buttonMore"
         android:title="@string/more"
         android:enabled="true"
