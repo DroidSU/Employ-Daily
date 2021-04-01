@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item android:title="@string/make_a_bid"
+        android:id="@+id/buttonbid"
+
+        android:enabled="true"
+        android:icon="@drawable/bid_img" />
+
+    <item android:id="@+id/button_myjob"
+        android:enabled="true"
+
+        android:title="@string/my_jobs"
+        android:icon="@drawable/my_job_img"/>
+    <item android:id="@+id/button_message"
+        android:title="@string/message"
+        android:enabled="true"
+        app:showAsAction="ifRoom"
+        android:icon="@drawable/my_job_img"/>
+    <item android:id="@+id/buttonFindJon"
+        android:title="@string/find_jobs"
+        android:enabled="true"
+
+        android:icon="@drawable/my_job_img"/>
+    <item android:id="@+id/buttonMore"
+        android:title="@string/more"
+        android:enabled="true"
+        android:icon="@drawable/ic_more_icon"/>
+</menu>

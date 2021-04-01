@@ -9,8 +9,10 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.EmployDaily">
-        <activity android:name=".views.SplashActivity"></activity>
-        <activity android:name=".views.MainActivity">
+        <activity android:name=".views.RegistrationPage"></activity>
+        <activity android:name=".views.LoginScreen" />
+        <activity android:name=".views.SplashActivity" />
+        <activity android:name=".views.Dashboard">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
