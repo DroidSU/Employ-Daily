@@ -8,8 +8,8 @@
     tools:context=".views.LoginScreen">
 
     <LinearLayout
-        android:layout_width="150dp"
-        android:layout_height="150dp"
+        android:layout_width="120dp"
+        android:layout_height="120dp"
         android:layout_gravity="center"
         android:layout_marginTop="20dp"
         android:orientation="vertical"
@@ -18,13 +18,14 @@
             android:layout_width="60dp"
             android:layout_height="60dp"
             android:layout_gravity="center"
-            android:layout_marginTop="50dp"
+            android:layout_marginTop="30dp"
             android:background="@drawable/ic_logo_white"/>
 
 
 
 
     </LinearLayout>
+
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
@@ -42,6 +43,7 @@
             android:layout_height="50dp"
             android:layout_gravity="center"
             android:gravity="center"
+            android:inputType="textEmailAddress"
             android:drawableLeft="@drawable/ic_email"
             android:hint="Enter Email"/>
 
@@ -65,6 +67,7 @@
             android:layout_height="50dp"
             android:layout_gravity="center"
             android:gravity="center"
+            android:inputType="number"
             android:drawableLeft="@drawable/ic_smartphone"
             android:hint="Mobile No"/>
 
@@ -98,7 +101,7 @@
 
         <Button
             android:layout_width="match_parent"
-            android:layout_height="50dp"
+            android:layout_height="60dp"
             android:layout_marginTop="20dp"
             android:layout_marginLeft="30dp"
             android:layout_marginRight="30dp"

@@ -9,11 +9,11 @@ import android.view.View;
 import android.view.ViewGroup;
 
 import com.brixham.employdaily.R;
-import com.brixham.employdaily.databinding.FragmentHomeBinding;
+
 
 public class HomeFragment extends Fragment {
 
-    private FragmentHomeBinding fragmentHomeBinding;
+    private View view;
 
     public static HomeFragment newInstance() {
         HomeFragment fragment = new HomeFragment();
@@ -30,14 +30,14 @@ public class HomeFragment extends Fragment {
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container,
                              Bundle savedInstanceState) {
-        fragmentHomeBinding = FragmentHomeBinding.inflate(inflater, container, false);
-        View view = fragmentHomeBinding.getRoot();
+
+        view = inflater.inflate(R.layout.fragment_home, container, false);
         return view;
     }
 
     @Override
     public void onDestroyView() {
         super.onDestroyView();
-        fragmentHomeBinding = null;
+
     }
 }

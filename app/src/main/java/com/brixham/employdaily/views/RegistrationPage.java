@@ -5,6 +5,8 @@ import com.brixham.employdaily.R;
 
 import android.os.Bundle;
 
+import com.brixham.employdaily.R;
+
 public class RegistrationPage extends AppCompatActivity {
 
     @Override

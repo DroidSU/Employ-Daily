@@ -8,6 +8,8 @@ import android.os.Bundle;
 
 import android.os.Bundle;
 
+import com.brixham.employdaily.R;
+
 public class LoginScreen extends AppCompatActivity {
 
     @Override

@@ -5,6 +5,9 @@ import com.brixham.employdaily.R;
 
 import android.os.Bundle;
 
+import com.brixham.employdaily.R;
+
+
 public class SplashActivity extends AppCompatActivity {
 
     @Override
